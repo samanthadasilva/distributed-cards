@@ -48,3 +48,26 @@ ol {
   grid-template-rows: 1fr 1fr;
   gap: 1rem;
 }
+
+ol li {
+  background-color: #ede3db;
+  list-style-type: none;
+  border: 2px #623b0c solid;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+li p {
+  margin: 1.5rem 0;
+  flex-grow: 1;
+}
+
+a {
+  color: #fff;
+  background-color: #623b0c;
+  text-decoration: none;
+  padding: .6em;
+  border-radius: 8px;
+}
